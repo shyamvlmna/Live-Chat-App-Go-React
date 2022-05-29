@@ -1,4 +1,5 @@
 # Live-Chat-App
 
-Study project created using Go and ReactJs                                                                                                                                                                                
+Study project
+Used Go and ReactJs                                                                                                                                                                                
 Used gorilla websocket and gorilla mux
