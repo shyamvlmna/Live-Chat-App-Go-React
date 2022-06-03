@@ -8,7 +8,6 @@ import (
 	"github.com/gorilla/mux"
 )
 
-//
 func serveWs(pool *websocket.Pool, w http.ResponseWriter, r *http.Request) {
 	fmt.Println("WebSocket Endpoint Hit")
 	conn, err := websocket.Upgrade(w, r)
